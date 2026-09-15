@@ -1,0 +1,55 @@
+/* Card Principale Glassmorphism */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Piccola per le Metrike */
+.glass-card-sm {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Singolo Elemento Orario */
+.glass-item-hourly {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 0.75rem;
+  min-width: 65px;
+}
+
+/* Scrollbar Personalizzata */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+/* Colorazione Icone FontAwesome */
+.icon-sereno { color: #fcd34d; }
+.icon-sereno-poco { color: #fde68a; }
+.icon-nuvoloso { color: #bae6fd; }
+.icon-coperto { color: #cbd5e1; }
+.icon-nebbia { color: #cbd5e1; }
+.icon-brina { color: #a5f3fc; }
+.icon-pioggerella-1 { color: #7dd3fc; }
+.icon-pioggerella-2 { color: #38bdf8; }
+.icon-pioggerella-3 { color: #60a5fa; }
+.icon-pioggia-1 { color: #38bdf8; }
+.icon-pioggia-2 { color: #60a5fa; }
+.icon-pioggia-3 { color: #3b82f6; }
+.icon-neve-1 { color: #bae6fd; }
+.icon-neve-2 { color: #7dd3fc; }
+.icon-neve-3 { color: #cff4fc; }
+.icon-rovesci { color: #a5b4fc; }
+.icon-temporale { color: #facc15; }
